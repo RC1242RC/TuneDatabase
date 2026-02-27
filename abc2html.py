@@ -10,7 +10,7 @@ import Levenshtein
 # Options
 tune_dir = os.path.join(".", "Tunes")
 html_file_path = os.path.join("..", "PersonalWebsite", "static", "data", "tunelist_table.html")
-similarity_cutoff_names = 0.4
+similarity_cutoff_names = 0.6
 similarity_cutoff_tunes = 0.6
 
 # Open each abc file in turn and read the lines
